@@ -1,0 +1,46 @@
+{
+  "name": "era-xv",
+  "version": "2.1.0",
+  "private": true,
+  "description": "ERA XV — every era, one XV. A one-minute rugby union drafting game.",
+  "author": "Florian Iglesias",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skysaks/ERA-XV"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "calibrate": "tsx scripts/calibrate.ts",
+    "audit:data": "tsx scripts/audit-data.ts",
+    "encounters": "tsx scripts/encounters.ts",
+    "import:data": "tsx scripts/import-teams.ts",
+    "e2e": "python3 e2e/e2e.py",
+    "i18n": "tsx scripts/i18n-check.ts",
+    "check": "tsc --noEmit && vitest run && tsx scripts/i18n-check.ts && tsx scripts/audit-data.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.4"
+  },
+  "overrides": {
+    "@parcel/watcher": "^2.6.0"
+  }
+}
