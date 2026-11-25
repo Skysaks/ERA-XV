@@ -30,15 +30,15 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "4.3.3",
+    "@tailwindcss/cli": "4.3.4",
     "@types/node": "^22.20.4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "esbuild": "0.28.2",
-    "tailwindcss": "4.3.3",
+    "tailwindcss": "4.3.4",
     "tsx": "^4.21.0",
     "typescript": "^5.9.0",
-    "vitest": "^5.0.4"
+    "vitest": "^5.1.0"
   },
   "overrides": {
     "@parcel/watcher": "^2.6.0"
