@@ -2,6 +2,10 @@
 
 **Toutes les époques. Un seul XV.**
 
+**Jouer** : [skysaks.github.io/ERA-XV](https://skysaks.github.io/ERA-XV/) — version autonome hors ligne (`dist/era-xv.standalone.html`, CSP stricte).
+
+![ERA XV sur ordinateur et téléphone](docs/captures/carte-sociale.png)
+
 > © 2026 Florian Iglesias — Tous droits réservés. Ce dépôt est public à titre de portfolio uniquement.
 > Aucune licence n'est concédée : copie, modification, distribution ou exploitation interdites sans accord écrit. Voir [LICENSE](LICENSE). Jeu de draft de rugby à XV : 15 choix, un XV, une saison, puis comparer, défier, revenir demain.
 
